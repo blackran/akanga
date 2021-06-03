@@ -11,7 +11,7 @@ axios.defaults.baseURL = 'https://www.perlerencontre.fr'
 // <BrowserRouter basename={window.location.pathname || ''}>
 function App (props) {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Switch>
           {/* <Route exact path="/List=:categorie" component={List}/> */}
