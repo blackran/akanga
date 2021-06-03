@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50474d9f482475c8460534aada95fc50",
+    "revision": "4c6c2df34e67215dfe3422c7bc0ce1df",
     "url": "/akanga/index.html"
   },
   {
-    "revision": "b12f7cc6fed87bae76fb",
+    "revision": "3c2fe4ef9fe4b1aa3ec8",
     "url": "/akanga/static/css/main.22f8c23c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/akanga/static/js/2.1f3d717d.chunk.js"
   },
   {
-    "revision": "b12f7cc6fed87bae76fb",
-    "url": "/akanga/static/js/main.c93dbfd5.chunk.js"
+    "revision": "3c2fe4ef9fe4b1aa3ec8",
+    "url": "/akanga/static/js/main.7dd16004.chunk.js"
   },
   {
     "revision": "c54407b4f6db41b23112",
