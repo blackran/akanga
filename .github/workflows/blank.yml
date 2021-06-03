@@ -28,7 +28,7 @@ jobs:
     - run: yarn build
       env:
         NEXT_PUBLIC_BASE_PATH: '/akanga'
-    - run: yarn export
+    - run: yarn start 
     - run: touch ./out/.nojekyll
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1

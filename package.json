@@ -9,7 +9,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint",
-    "export": "next export",
     "gh-pages": "gh-pages -d out",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
