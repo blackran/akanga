@@ -32,10 +32,10 @@ function Header () {
 
         <nav className="navigation__nav">
           <ul className="navigation__list">
-            <li className="navigation__item"><a href='#' className="navigation__link">A propos</a></li>
-            <li className="navigation__item"><a href='#' className="navigation__link">Realisation</a></li>
-            <li className="navigation__item"><a href='#' className="navigation__link">Qui nous sommes</a></li>
-            <li className="navigation__item"><a href='#' className="navigation__link">Contact</a></li>
+            <li className="navigation__item"><a href='/' className="navigation__link">A propos</a></li>
+            <li className="navigation__item"><a href='/' className="navigation__link">Realisation</a></li>
+            <li className="navigation__item"><a href='/' className="navigation__link">Qui nous sommes</a></li>
+            <li className="navigation__item"><a href='/' className="navigation__link">Contact</a></li>
           </ul>
         </nav>
       </div>
