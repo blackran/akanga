@@ -15,8 +15,8 @@ function App (props) {
       <div className="App">
         <Switch>
           {/* <Route exact path="/List=:categorie" component={List}/> */}
-          <Route basename={process.env.PUBLIC_URL} exact path="/" component={Principal}/>
-          <Route basename={process.env.PUBLIC_URL} component={error404} />
+          <Route basename={window.location.pathname || ''} exact path="/" component={Principal}/>
+          <Route basename={window.location.pathname || ''} component={error404} />
         </Switch>
       </div>
     </BrowserRouter>
