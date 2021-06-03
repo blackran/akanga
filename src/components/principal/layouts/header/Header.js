@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './img/akangfa.png'
+import logo from './img/akanga.svg'
 import img1 from './img/1.png'
 import img2 from './img/2.png'
 import img3 from './img/3.png'

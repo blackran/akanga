@@ -76,7 +76,7 @@ function Competences () {
     setTimeout(() => {
       animate({ transform: 'translateY(0px)', opacity: 1 })
     }, 1000)
-  }, [active])
+  }, [active, animate])
 
   const onHover = (id) => {
     console.log(id)
