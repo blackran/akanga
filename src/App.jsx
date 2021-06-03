@@ -8,13 +8,14 @@ import Principal from './components/principal/Principal'
 
 axios.defaults.baseURL = 'https://www.perlerencontre.fr'
 
+
+// <BrowserRouter basename={window.location.pathname || ''}>
 function App (props) {
   return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter>
       <div className="App">
         <Switch>
           {/* <Route exact path="/List=:categorie" component={List}/> */}
-          <Route exact path="/akanga/" component={Principal}/>
           <Route exact path="/" component={Principal}/>
           <Route component={error404} />
         </Switch>
