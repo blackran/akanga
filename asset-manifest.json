@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/akanga/static/css/main.22f8c23c.chunk.css",
-    "main.js": "/akanga/static/js/main.ad293c4d.chunk.js",
-    "main.js.map": "/akanga/static/js/main.ad293c4d.chunk.js.map",
+    "main.js": "/akanga/static/js/main.9e25789a.chunk.js",
+    "main.js.map": "/akanga/static/js/main.9e25789a.chunk.js.map",
     "runtime-main.js": "/akanga/static/js/runtime-main.99b67b0e.js",
     "runtime-main.js.map": "/akanga/static/js/runtime-main.99b67b0e.js.map",
-    "static/js/2.7f9aabea.chunk.js": "/akanga/static/js/2.7f9aabea.chunk.js",
-    "static/js/2.7f9aabea.chunk.js.map": "/akanga/static/js/2.7f9aabea.chunk.js.map",
+    "static/js/2.5245643a.chunk.js": "/akanga/static/js/2.5245643a.chunk.js",
+    "static/js/2.5245643a.chunk.js.map": "/akanga/static/js/2.5245643a.chunk.js.map",
     "index.html": "/akanga/index.html",
-    "precache-manifest.dd66685a5b3144dab0d3e7fbd61558eb.js": "/akanga/precache-manifest.dd66685a5b3144dab0d3e7fbd61558eb.js",
+    "precache-manifest.52604a91f42b941d8afcb6b8edd55b3e.js": "/akanga/precache-manifest.52604a91f42b941d8afcb6b8edd55b3e.js",
     "service-worker.js": "/akanga/service-worker.js",
     "static/css/main.22f8c23c.chunk.css.map": "/akanga/static/css/main.22f8c23c.chunk.css.map",
     "static/media/akanga.svg": "/akanga/static/media/akanga.3793c546.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.99b67b0e.js",
-    "static/js/2.7f9aabea.chunk.js",
+    "static/js/2.5245643a.chunk.js",
     "static/css/main.22f8c23c.chunk.css",
-    "static/js/main.ad293c4d.chunk.js"
+    "static/js/main.9e25789a.chunk.js"
   ]
 }
