@@ -14,6 +14,7 @@ function App (props) {
       <div className="App">
         <Switch>
           {/* <Route exact path="/List=:categorie" component={List}/> */}
+          <Route exact path="/akanga/" component={Principal}/>
           <Route exact path="/" component={Principal}/>
           <Route component={error404} />
         </Switch>
