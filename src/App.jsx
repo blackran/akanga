@@ -14,7 +14,7 @@ function App (props) {
       <div className="App">
         <Switch>
           {/* <Route exact path="/List=:categorie" component={List}/> */}
-          <Route basename={window.location.pathname || ''} exact path="/" component={Principal}/>
+          <Route exact path="/" component={Principal}/>
           <Route basename={window.location.pathname || ''} component={error404} />
         </Switch>
       </div>
