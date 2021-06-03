@@ -45,29 +45,29 @@ function Header () {
         </div>
 
         <div class="header__text-box">
-          <img src={logo} alt="image" class="image--box"/>
+          <img src={logo} alt="image_center" class="image--box"/>
           <h1 class="heading-primary">
             <span class="heading-primary--main">Akanga</span>
             <span class="heading-primary--sub">Confiez vos projet aux mainx de jeune experts et dynamiques</span>
           </h1>
         </div>
         <div className="background">
-          <span><img src={img1} alt=""div className="size__image"/></span>
-          <span><img src={img2} alt=""div className="size__image"/></span>
-          <span><img src={img3} alt=""div className="size__image"/></span>
-          <span><img src={img4} alt=""div className="size__image"/></span>
-          <span><img src={img5} alt=""div className="size__image"/></span>
-          <span><img src={img6} alt=""div className="size__image"/></span>
-          <span><img src={img7} alt=""div className="size__image"/></span>
-          <span><img src={img8} alt=""div className="size__image"/></span>
-          <span><img src={img9} alt=""div className="size__image"/></span>
-          <span><img src={A1} alt=""div className="size__image"/></span>
-          <span><img src={A2} alt=""div className="size__image"/></span>
-          <span><img src={A3} alt=""div className="size__image"/></span>
-          <span><img src={A4} alt=""div className="size__image"/></span>
-          <span><img src={A5} alt=""div className="size__image"/></span>
-          <span><img src={A6} alt=""div className="size__image"/></span>
-          <span><img src={A7} alt=""div className="size__image"/></span>
+          <span><img src={img1} alt="imag1" div className="size__image"/></span>
+          <span><img src={img2} alt="imag2" div className="size__image"/></span>
+          <span><img src={img3} alt="imag2" div className="size__image"/></span>
+          <span><img src={img4} alt="imag2" div className="size__image"/></span>
+          <span><img src={img5} alt="imag2" div className="size__image"/></span>
+          <span><img src={img6} alt="imag2" div className="size__image"/></span>
+          <span><img src={img7} alt="imag2" div className="size__image"/></span>
+          <span><img src={img8} alt="imag2" div className="size__image"/></span>
+          <span><img src={img9} alt="imag2" div className="size__image"/></span>
+          <span><img src={A1} alt="imag2" div className="size__image"/></span>
+          <span><img src={A2} alt="imag2" div className="size__image"/></span>
+          <span><img src={A3} alt="imag2" div className="size__image"/></span>
+          <span><img src={A4} alt="imag2" div className="size__image"/></span>
+          <span><img src={A5} alt="imag2" div className="size__image"/></span>
+          <span><img src={A6} alt="imag2" div className="size__image"/></span>
+          <span><img src={A7} alt="imag2" div className="size__image"/></span>
 
         </div>
       </header>
