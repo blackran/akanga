@@ -1,0 +1,54 @@
+.Competences {
+  background-color: #051721;
+  width: 100%;
+  padding: 10px 10%;
+  position: relative;
+  // height: 100vh;
+  overflow: hidden;
+  &>div:nth-child(1) {
+    margin: auto;
+    width: 331px;
+    margin-bottom: 50px;
+    h1 {
+      color: #a5d5e1;
+      text-align: center;
+      font-weight: 500;
+          font-family: cursive;
+
+    }
+    p {
+      color: #708189;
+      text-align: center;
+    }
+  }
+  .CompetencesBlock {
+    display: flex;
+    height: 120px;
+  }
+  .CompetencesDetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    // border: 1px solid red;
+    // position: relative;
+  }
+
+  @media screen and (max-width: 960px) {
+    & {
+      padding: 10px 5%;
+    }
+  }
+  @media screen and (max-width: 724px) {
+    .CompetencesBlock  {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      margin-bottom: 30px;
+    }
+    .CompetencesDetail {
+      position: inherit;
+      margin: auto;
+      transform: inherit;
+    }
+  }
+}

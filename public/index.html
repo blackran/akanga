@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logoLight.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+        name="description"
+        content="Web site created using create-react-app"
+        />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />-->
+    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+
+    <title>Perle Rencontre</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <div class="scrollTop nav_hidden"></div>
+    <script>
+      Object.defineProperty(Array.prototype, 'move', {
+              value: function (old_index, new_index) {
+                      while (old_index < 0) {
+                              old_index += this.length;
+                            }
+                      while (new_index < 0) {
+                              new_index += this.length;
+                            }
+                      if (new_index >= this.length) {
+                              let k = new_index - this.length;
+                              while ((k--) + 1) {
+                                      this.push(undefined);
+                                    }
+                            }
+                      this.splice(new_index, 0, this.splice(old_index, 1)[0]);
+                      return this;
+                    }
+            });
+      window.addEventListener('scroll', () => {
+        const element = document.querySelector('.navigation')
+        const scroll = document.querySelector('.scrollTop')
+              if (window.scrollY<20) {
+                      element.classList.remove('nav_hidden')
+                      scroll.classList.add('nav_hidden')
+                    } else {
+                            element.classList.add('nav_hidden')
+                            scroll.classList.remove('nav_hidden')
+                          }
+            })
+      document.querySelector('.scrollTop').addEventListener('click', event => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    </script>
+      </body>
+</html>

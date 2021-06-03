@@ -1,0 +1,36 @@
+.header{
+    height: 50px;
+    background-color: #2B1881;
+    color: white;
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items:center;
+}
+
+.div_task{
+    font-size: 32px;
+
+}
+
+.ul_Header{
+    display:  flex;
+    flex-direction: row;
+    width: 354px;
+    justify-content: space-around; 
+    align-items:center;
+    font-weight: 367;
+
+}
+
+
+.ul_Header li{
+    list-style-type: none;
+}
+
+/* .ul_principal{
+    background-color: red;
+} */
+
+
+

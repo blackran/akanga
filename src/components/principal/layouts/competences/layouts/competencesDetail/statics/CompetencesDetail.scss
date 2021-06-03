@@ -1,0 +1,48 @@
+.CompetencesDetail {
+  // height: 100vh;
+  position: absolute;
+  top: calc(50% - 100px); 
+  margin-top: 10px !important;
+  // right: 100px;
+  right: calc(50% - 100px);
+  transform: translate(50%);
+  .topBlock {
+    margin-bottom: 80px;
+  }
+  .list-icons {
+    display: flex;
+    justify-content: center;
+    .Tech {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin: 0 15px;
+      border-radius: 10px;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  h2, h3 {
+    color: #a5d5e1;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+
+  h3 {
+    margin: 30px 0 20px 0;
+  }
+
+  p {
+    color: #708189;
+    text-align: center;
+  }
+}

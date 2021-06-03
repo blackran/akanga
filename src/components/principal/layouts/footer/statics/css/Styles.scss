@@ -1,0 +1,26 @@
+.Footer {
+  background: #051721;
+  height: 300px;
+  text-align: center;
+  padding-top: 30px;
+  .ti{
+    font-size: 36px;
+    font-family: cursive;
+    color:  #c0e2ec;
+  }
+  .sec{
+    font-size:revert;
+    color: #677a80;
+  }
+  .mail{
+    color: #677a80;
+  }
+  .copy{
+    color: #677a80;
+  }
+  .footer-container {
+    p {
+      margin-top: 90px;
+    }
+  }
+}

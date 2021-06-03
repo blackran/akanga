@@ -1,0 +1,1 @@
+export const ON_CHANGE_CONTACTS = 'ON_CHANGE_CONTACTS'
