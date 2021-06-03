@@ -5,6 +5,7 @@ import techIcon from './statics/images/icon.jpeg'
 import './statics/css/Competences.scss'
 import { useSpring, animated } from 'react-spring'
 
+
 function Competences () {
   const [datas, setDatas] = useState([])
   const [active, setActive] = useState(0)

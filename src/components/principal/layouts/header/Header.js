@@ -18,6 +18,8 @@ import A6 from './img/A6.png'
 import A7 from './img/A7.png'
 import './statics/css/Styles.scss'
 
+// const prefix = process.env.REACT_PUBLIC_BASE_PATH || ''
+
 function Header () {
   return (
     <div className="App">
