@@ -8,7 +8,6 @@ import Principal from './components/principal/Principal'
 
 axios.defaults.baseURL = 'https://www.perlerencontre.fr'
 
-
 // <BrowserRouter basename={window.location.pathname || ''}>
 function App (props) {
   return (
