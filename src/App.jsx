@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import axios from 'axios'
 
 // my import
@@ -11,15 +11,15 @@ axios.defaults.baseURL = 'https://www.perlerencontre.fr'
 // <BrowserRouter basename={window.location.pathname || ''}>
 function App (props) {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <div className="App">
         <Switch>
           {/* <Route exact path="/List=:categorie" component={List}/> */}
-          <Route exact path="/" component={Principal}/>
-          <Route component={error404} />
+          <Route basename={process.env.PUBLIC_URL} exact path="/" component={Principal}/>
+          <Route basename={process.env.PUBLIC_URL} component={error404} />
         </Switch>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
