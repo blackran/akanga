@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+// import { BrowserRouter as Router } from 'react-router-dom';
 import axios from 'axios'
 
 // my import
@@ -10,15 +11,15 @@ axios.defaults.baseURL = 'https://www.perlerencontre.fr'
 
 function App (props) {
   return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <Router basename={window.location.pathname || ''}>
       <div className="App">
         <Switch>
           {/* <Route exact path="/List=:categorie" component={List}/> */}
           <Route exact path="/" component={Principal}/>
-          <Route basename={window.location.pathname || ''} component={error404} />
+          <Route component={error404} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </Router>
   )
 }
 
